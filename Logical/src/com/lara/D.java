@@ -1,0 +1,10 @@
+package com.lara;
+import java.util.Arrays;
+class D 
+{
+	public static void main(String[] args) 
+	{
+		int[] x = new int[5];
+		System.out.println(Arrays.toString(x));
+	}
+}

@@ -1,0 +1,27 @@
+package com.lara;
+
+import java.util.Scanner;
+
+public class EvenNumbers {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter The Number From upto which number and upto what number you want to print: ");
+		System.out.println("Enter the First Number :  ");
+		int first = sc.nextInt();
+		
+		System.out.println("Enter the Second Number :" );
+		int second = sc.nextInt();
+		
+		System.out.print("Even Numbers :  ");
+		for (int i = first; i <= second; i++) {
+				if (i %2 ==0) {
+					System.out.print("  "+  i +"  "  );
+				}
+			
+		}
+	}
+}

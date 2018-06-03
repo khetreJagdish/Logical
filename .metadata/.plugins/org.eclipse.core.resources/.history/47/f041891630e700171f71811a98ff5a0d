@@ -1,0 +1,9 @@
+package normalorregularinnerclasses;
+
+public class NormalInnerClassDemo
+{
+	public class InnerMostClass
+	{
+		
+	}
+}

@@ -1,0 +1,22 @@
+package normalorregularinnerclasses;
+
+
+public  class AnonymousInnerClassDemo
+{
+	public static void main(String[] args)
+	{
+		
+		NormalInnerClassDemo normalInnerClassDemo = new NormalInnerClassDemo()
+				{
+						public void sayHello()
+						{
+							System.out.println("Hello From Extended Subclass...");
+						}
+					
+				};
+				
+				normalInnerClassDemo.sayHello();
+			
+			
+	}
+}

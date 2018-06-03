@@ -1,0 +1,47 @@
+package com.exception;
+
+abstract class Person
+{
+	String name;
+	int age;
+}
+
+class Teacher extends Person
+{
+	double salary;
+	String subject;
+	
+	public Teacher(String name, int age, double salary, String subject)
+	{
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+		this.subject = subject;
+		System.out.println("Name Of the Teacher : " + name + " , Age : " + age + "  , Salary : " + salary + " , Subject : " + subject);
+	}
+}
+
+class Student extends Person
+{
+	int rollno;
+	int marks;
+	
+	public Student(String name, int age, int rollno, int marks)
+	{
+		this.name = name;
+		this.age = age;
+		this.rollno = rollno;
+		this.marks = marks;
+		System.out.println("Name Of the Student : " + name + " , Age : " + age + " , Roll No : " + rollno + " , Marks : " + marks);		
+	}
+	
+}
+
+public class AbstractClassWithoutConstructor
+{
+	public static void main(String[] args)
+	{
+		Student student = new Student("Jagdish", 25, 60, 80);
+		Teacher teacher = new Teacher("Durga", 48, 100000,"Java");
+	}
+}

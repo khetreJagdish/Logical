@@ -1,0 +1,43 @@
+package equalsmethod;
+
+public class Student
+{
+	int name;
+	int roll_no;
+	/**
+	 * @return the name
+	 */
+	public int getName()
+	{
+		return name;
+	}
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(int name)
+	{
+		this.name = name;
+	}
+	/**
+	 * @return the roll_no
+	 */
+	public int getRoll_no()
+	{
+		return roll_no;
+	}
+	/**
+	 * @param roll_no the roll_no to set
+	 */
+	public void setRoll_no(int roll_no)
+	{
+		this.roll_no = roll_no;
+	}
+	
+	@Override
+	public String toString()
+	{
+		
+		return "Name : " + name + " ROll No : " + roll_no;
+	}
+	
+}

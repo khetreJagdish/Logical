@@ -1,0 +1,23 @@
+import java.io.*;
+class MyClass{
+
+    
+
+    public MyClass(){
+        
+        try {
+            int i = 10;
+			int j = 0;
+			System.out.println(i/j);
+
+        } catch (Exception e) {
+         e.getMessage();
+        }
+    }
+
+
+	public static void main(String[] args)
+	{
+		MyClass c = new MyClass();
+	}
+}

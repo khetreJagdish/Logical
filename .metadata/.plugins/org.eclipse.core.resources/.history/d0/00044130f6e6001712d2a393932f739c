@@ -1,0 +1,36 @@
+package com.exception;
+
+
+
+class Parent
+{
+	int id;
+	String name;
+	public Parent(String name, int id)
+	{
+		this.id = id;
+		this.name=name;
+	}
+}
+
+class Child extends Parent
+{
+	public Child()
+	{
+		super("JK",2);
+	}
+}
+public class AbstractDemo
+{
+	public AbstractDemo()
+	{
+		System.out.println(this);
+		System.out.println(this.hashCode());
+		System.out.println(this.getClass());
+	}
+	public static void main(String[] args)
+	{
+		Child child = new Child();
+		//AbstractDemo abstractDemo = new AbstractDemo();
+	}
+}

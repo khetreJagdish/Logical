@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Person.java&apos; to &apos;Collection/src/com.collection&apos;&#x0D;&#x0A;- Original project: &apos;Serialization&apos;&#x0D;&#x0A;- Destination element: &apos;Collection/src/com.collection&apos;&#x0D;&#x0A;- Original element: &apos;com.java.seialization.Person.java&apos;" description="Copy compilation unit" destination="=Collection/src&lt;com.collection" element1="/src&lt;com.java.seialization{Person.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1513674179719" units="1" version="1.0"/>
+</session>

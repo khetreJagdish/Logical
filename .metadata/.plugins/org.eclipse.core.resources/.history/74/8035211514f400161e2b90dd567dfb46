@@ -1,0 +1,23 @@
+package com.lara;
+
+import java.util.Scanner;
+import java.util.logging.Logger;
+
+import org.apache.log4j.BasicConfigurator;
+
+public class LeapYear {
+	
+	static Logger logger = Logger.getLogger(LeapYear.class.getName());
+	
+	
+	public static void main(String[] args) {
+		BasicConfigurator configurator;
+		
+		Scanner sc = new Scanner(System.in);
+		logger.info("Enter the Number ");
+		int number = sc.nextInt();
+		
+		
+	
+	}
+}

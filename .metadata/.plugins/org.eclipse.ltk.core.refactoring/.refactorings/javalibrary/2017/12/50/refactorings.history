@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;readerclass&apos; to &apos;iopackage&apos;&#x0D;&#x0A;- Original project: &apos;javalibrary&apos;&#x0D;&#x0A;- Original element: &apos;javalibrary/src/readerclass&apos;&#x0D;&#x0A;- Renamed element: &apos;javalibrary/src/iopackage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;readerclass&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;readerclass" name="iopackage" qualified="false" references="true" stamp="1512885252198" textual="false" version="1.0"/>
+</session>

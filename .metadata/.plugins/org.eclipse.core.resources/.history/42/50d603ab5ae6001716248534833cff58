@@ -1,0 +1,19 @@
+package com.exception;
+
+import java.io.IOException;
+
+public class ExceptionHandlingdemo
+{
+	public static void main(String[] args) throws InterruptedException
+	{
+		try
+		{
+			Thread.sleep(10000);
+			System.out.println("Frm try");
+		} catch (Exception e)
+		{
+			// TODO: handle exception
+		}
+		
+	}
+}

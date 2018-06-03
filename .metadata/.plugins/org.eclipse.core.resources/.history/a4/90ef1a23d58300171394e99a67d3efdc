@@ -1,0 +1,8 @@
+package com.java.identifier;
+
+public class MainMethodDemo {
+	
+	strictfp final public static void main(String[] args) {
+		System.out.println("Hello");
+	}
+}

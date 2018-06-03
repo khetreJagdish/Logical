@@ -1,0 +1,9 @@
+package normalorregularinnerclasses;
+
+public final class AnonymousInnerClassDemo
+{
+	public static void main(String[] args)
+	{
+		AnonymousInnerClassDemo classDemo = new AnonymousInnerClassDemo(){};
+	}
+}

@@ -1,0 +1,24 @@
+package normalorregularinnerclasses;
+
+public  class AnonymousInnerClassDemo
+{
+	public static void main(String[] args)
+	{
+		
+	final	AnonymousInnerClassDemo anonymousInnerClassDemo = new AnonymousInnerClassDemo()
+				{
+			
+				};
+		final Thread t = new Thread()
+				{
+					
+						@Override
+						public void run()
+						{
+							
+							super.run();
+						}
+				};
+			
+	}
+}

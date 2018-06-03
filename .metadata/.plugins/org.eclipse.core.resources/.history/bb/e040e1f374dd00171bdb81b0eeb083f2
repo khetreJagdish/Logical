@@ -1,0 +1,28 @@
+package iopackage;
+
+abstract class Abstract
+{
+	public static void helloDEmo()
+	{
+		System.out.println("HEllo from HelloDEmo");
+	}
+}
+abstract class AbstractClass extends Abstract
+{
+	public static  void demo()
+	{
+		System.out.println("Hello from demo");
+		Abstract.helloDEmo();
+	}
+}
+public class AbstractClassDemo extends AbstractClass
+{
+	public static void main(String[] args)
+	{
+		
+			AbstractClass.demo();
+//		 We can' t  Create an Object For Abstract Class.
+//		for e.g.
+//		AbstractClass abstractClass = new AbstractClass();
+	}
+}

@@ -1,0 +1,24 @@
+package com.exception;
+
+abstract class Person
+{
+	int name;
+	int age;
+}
+
+class Teacher extends
+{
+	double salary;
+	String subject;
+	
+	public Teacher()
+	{
+		
+	}
+}
+
+class Student
+{
+	int rollno;
+	int marks;
+}

@@ -1,0 +1,18 @@
+package normalorregularinnerclasses;
+
+public class NormalInnerClassDemo
+{
+	private  abstract  class InnerMostClass
+	{
+		public abstract  void printHello();
+		
+		{
+			System.out.println("Hello From Inner Classes...");
+		}
+	}
+	public static void main(String[] args)
+	{
+		NormalInnerClassDemo normalInnerClassDemo = new NormalInnerClassDemo();
+		
+	}
+}

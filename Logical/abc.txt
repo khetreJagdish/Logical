@@ -1,0 +1,10 @@
+1) find a word in a text file
+2)  Program to find max product of two 3 digit no. which palindrome
+3)  Program to Second highest occuring word in text file
+4)  Program to how many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?  
+5) largest pan-digital number
+6) what is the process goes behind when we hit a website first time.  
+7) how can we create our own copy command similar to dos copy command  
+8) how can we run php on IIS server  
+9) Some questions on SQL procedures, triggers and joins  
+Program

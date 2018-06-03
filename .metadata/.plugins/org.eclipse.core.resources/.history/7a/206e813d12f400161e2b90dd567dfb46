@@ -1,0 +1,17 @@
+package com.lara;
+
+import java.util.Scanner;
+import java.util.logging.Logger;
+
+import org.apache.log4j.BasicConfigurator;
+
+public class FactorialNumber {
+	Logger logger = Logger.getLogger(FactorialNumber.class.getName());
+	
+	
+		public static void main(String[] args) {
+			
+			
+			BasicConfigurator.configure();
+		}
+}

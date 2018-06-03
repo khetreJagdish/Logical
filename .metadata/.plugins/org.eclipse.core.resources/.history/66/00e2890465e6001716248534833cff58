@@ -1,0 +1,21 @@
+package com.exception;
+
+public class ExceptionDemo
+{
+	public static void main(String[] args) throws InterruptedException
+	{
+		doStuff();
+	}
+
+	private static void doStuff() throws InterruptedException
+	{
+		doMoreStuff();
+		
+	}
+
+	private static void doMoreStuff() throws InterruptedException
+	{
+		Thread.sleep(1000);
+		
+	}
+}

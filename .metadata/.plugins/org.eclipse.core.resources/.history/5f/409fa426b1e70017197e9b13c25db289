@@ -1,0 +1,23 @@
+package normalorregularinnerclasses;
+
+import normalorregularinnerclasses.NormalInnerClassDemo.InnerMostClass;
+
+public  class AnonymousInnerClassDemo
+{
+	public static void main(String[] args)
+	{
+		
+		NormalInnerClassDemo normalInnerClassDemo = new NormalInnerClassDemo()
+				{
+						public void sayHello()
+						{
+							System.out.println(this.getClass().getName());
+							
+						}
+					
+				};
+				normalInnerClassDemo.sayHello();
+				NormalInnerClassDemo normalInnerClassDemo2 = new NormalInnerClassDemo();
+				System.out.println(normalInnerClassDemo2.getClass().getName());
+	}
+}

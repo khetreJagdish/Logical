@@ -1,0 +1,11 @@
+package com.java.identifier;
+
+import java.util.ArrayList;
+
+public class MainMethodDemo {
+	
+	strictfp final synchronized public static void main(String[] args) {
+		System.out.println("Hello");
+		ArrayList al  =new ArrayList<>();
+	}
+}

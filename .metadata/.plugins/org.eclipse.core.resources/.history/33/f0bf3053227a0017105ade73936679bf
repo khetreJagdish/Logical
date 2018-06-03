@@ -1,0 +1,29 @@
+package com.lara;
+
+public class CheckDuplicatesInJavaArray {
+
+	public static void main(String[] args) {
+		String[] array = { "one", "Two0", "Three", "Four", "Five'" };
+		System.out.println("Checking array with duplicate using brute force: " + findDuplicateElement(array));
+
+
+	}
+
+	private static boolean findDuplicateElement(String[] array) 
+	{
+		for (int i = 0; i < array.length; i++)
+		{
+
+			for (int j = 0; j < array.length; j++)
+			{
+
+				if (array[i].equals(array[j]) && i != j) 
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+}

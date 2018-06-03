@@ -1,0 +1,17 @@
+package com.java.identifier;
+abstract class Abstract
+{
+	
+}
+public class AbstractClassDemo {
+	
+	public static void main(String[] args) {
+		Abstract ab  = new Abstract() {
+		};
+	}
+}
+
+interface AbstractInterface
+{
+	 int a = 0;
+}

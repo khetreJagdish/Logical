@@ -1,0 +1,14 @@
+package iopackage;
+
+
+abstract class AbstractClass
+{
+	
+}
+public class AbstractClassDemo
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

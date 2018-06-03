@@ -1,0 +1,18 @@
+package staticnestedclasses;
+
+public class StaticNestedClassDemo
+{
+	public static void innerMethod()
+	{
+		 final class FirstInnerStaticInnerClass
+		{
+			
+		}
+		// Only Two Modifiers are allowed for Static Nested Classes  abstract and final
+		abstract class SecondInnerStaticInnerClass
+		{
+			
+		}
+	}
+	
+}

@@ -1,0 +1,16 @@
+package com.exception;
+
+public class ExceptionDemo6
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			throw new Error();
+		} catch (Throwable e)
+		{
+			System.out.println(e);
+		}
+		
+	}
+}

@@ -1,0 +1,38 @@
+package equalsmethod;
+
+public class Student
+{
+	private String name;
+	private int roll_no;
+
+	public Student(String name , int roll_no)
+	{
+		this.name = name;
+		this.roll_no = roll_no;
+	}
+	
+	@Override
+	public boolean equals(Object student)
+	{
+		
+		String name = this.name;
+		int roll_no = this.roll_no;
+		
+		Student student2 = (Student)student;
+		
+		String name1 = student2.name;
+		int roll_no1 = student2.roll_no;
+		
+		if (name.equals(name1) && roll_no == roll_no1)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+		
+	}
+	
+}

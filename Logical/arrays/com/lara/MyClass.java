@@ -1,0 +1,17 @@
+package com.lara;
+import java.io.*;
+class MyClass{
+
+	public static void main(String[] args)
+	{
+		 double d = 10.0;
+		 int j = 0;
+		 float f = 10.5f;
+		 int i  = 10;
+		 float f1 = 0.0f;
+		 System.out.println(0.0f/f1);  // NaN
+		System.out.println(d/j);        //  Infinity
+		System.out.println(f/j);        // Infinity
+		System.out.println(i/j);     // java.lang.ArithmeticException
+	}
+}

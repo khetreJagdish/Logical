@@ -1,0 +1,47 @@
+public class Main {
+
+        public static void main(String[] args) {
+                // This is done once in your application, usually at startup
+                Request.setRequest(new RequestImplementationOther());
+
+                Request.doSomething();
+        }
+
+        public static final class RequestImplementationDefault extends Request {
+                @Override
+                void doSomethingImpl() {
+                        System.out.println("I am doing something AAAAAA");
+                }
+        }
+
+        public static final class RequestImplementaionOther extends Request {
+                @Override
+                void doSomethingImpl() {
+                        System.out.println("I am doing something BBBBBB");
+                }
+        }
+
+        // Static methods in here can be overriden
+        public static abstract class Request {
+
+                abstract void doSomethingImpl();
+
+                // Static method
+                public static void doSomething() {
+                        getRequest().doSomethingImpl();
+                }
+
+                private static Request request;
+                private static Request getRequest() {
+                        // If setRequest is never called prior, it will default to a default implementation. Of course you could ignore that too. 
+                        if ( request == null ) {
+                                return request = new RequestImplementationDefault();
+                        }
+                        return request;
+                }
+                public static Request setRequest(Request r){
+                        return request = r;
+                }
+
+        }
+}

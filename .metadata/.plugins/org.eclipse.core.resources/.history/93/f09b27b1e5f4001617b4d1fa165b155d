@@ -1,0 +1,18 @@
+package com.lara;
+
+import java.util.logging.Logger;
+
+
+import org.apache.log4j.BasicConfigurator;
+
+public class PalindromeNumber {
+
+	static Logger logger = Logger.getLogger(PalindromeNumber.class.getName());
+	
+	public static void main(String[] args) {
+		
+		BasicConfigurator configurator;
+		
+		
+	}
+}

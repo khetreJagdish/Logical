@@ -1,0 +1,15 @@
+package com.exception;
+
+public class AbstractDemo
+{
+	public AbstractDemo()
+	{
+		System.out.println(this);
+		System.out.println(this.hashCode());
+		System.out.println(this.getClass());
+	}
+	public static void main(String[] args)
+	{
+		AbstractDemo abstractDemo = new AbstractDemo();
+	}
+}

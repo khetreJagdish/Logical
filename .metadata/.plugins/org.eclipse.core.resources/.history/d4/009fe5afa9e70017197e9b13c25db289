@@ -1,0 +1,31 @@
+package normalorregularinnerclasses;
+
+public final class AnonymousInnerClassDemo
+{
+	public static void main(String[] args)
+	{
+		Thread t = new Thread()
+				{
+					
+						@Override
+						public void run()
+						{
+							
+							super.run();
+						}
+				};
+				
+				
+				Runnable r = new Runnable()
+				{
+					
+					@Override
+					public void run()
+					{
+				
+						
+					}
+				};
+				
+	}
+}

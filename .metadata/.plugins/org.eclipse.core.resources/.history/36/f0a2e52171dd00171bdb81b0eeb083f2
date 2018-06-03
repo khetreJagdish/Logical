@@ -1,0 +1,16 @@
+package iopackage;
+
+
+abstract class AbstractClass
+{
+	
+}
+public class AbstractClassDemo extends AbstractClass
+{
+	public static void main(String[] args)
+	{
+//		 We can' t  Create an Object For Abstract Class.
+//		for e.g.
+//		AbstractClass abstractClass = new AbstractClass();
+	}
+}

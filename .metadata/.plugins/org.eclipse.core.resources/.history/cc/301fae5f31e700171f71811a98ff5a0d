@@ -1,0 +1,13 @@
+package staticnestedclasses;
+
+public class StaticNestedClassDemo
+{
+	public void innerMethod()
+	{
+		final class InnerStaticInnerClass
+		{
+			
+		}
+	}
+	
+}
